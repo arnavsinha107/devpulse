@@ -1,0 +1,34 @@
+# Mandatory Exclusions
+context.md
+scripts/
+
+# Dependencies & Build Artefacts
+node_modules/
+.next/
+out/
+build/
+dist/
+
+# Python & Virtual Environments
+.venv/
+backend/.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.db
+*.sqlite3
+
+# Environment Variables & Local Configs
+.env
+.env.local
+.env.*.local
+
+# Operating System & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
